@@ -27,5 +27,5 @@ hd = input("Holiday? (y/n): ").lower()
 nightshift = (ns == "y")
 holiday = (hd == "y")
 
-p = computepay(h, r, nightshift, holiday)
-print("Pay:", p)
+py = computepay(h, r, nightshift, holiday)
+print("Pay:", py)
